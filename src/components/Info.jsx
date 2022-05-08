@@ -12,7 +12,7 @@ export const Info = ({
 }) => {
   return (
     <div
-      className={`max-w-[48.375rem] mx-auto text-[#0B4A72] text-center ${className}`}
+      className={`max-w-[48.375rem] mx-auto text-dark-blue text-center ${className}`}
     >
       <Title className={`${classNameTitle}`}>{title}</Title>
       {children}

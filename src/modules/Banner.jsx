@@ -8,7 +8,7 @@ export const Banner = () => {
       <Info
         title="The neighborhood pharmacy that comes to you."
         link="Transfer in seconds"
-        classNameLink="bg-[#E6F2B4]"
+        classNameLink="bg-gray-white"
       >
         <p className="max-w-[21.375rem] mt-2.5 545:mt-7 mb-9 545:mb-11 mx-auto text-black leading-6 tracking-[0.75px]">
           We're your #1 rated pharmacy with free same-day delivery and

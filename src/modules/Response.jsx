@@ -14,19 +14,19 @@ export const Response = () => {
         <div className="mt-[-1rem]">
           <LinkItem
             href="https://www.youtube.com/watch?v=_0XQdWlDC78&ab_channel=PianoRelaxing"
-            className="bg-[#EBF0F5] pr-14 pl-8 leading-7"
+            className="bg-white-blue pr-14 pl-8 leading-7"
           >
             Watch Lisa's story
           </LinkItem>
         </div>
       </div>
       <blockquote className="max-w-[26.625rem] text-center mx-2.5 1017:mx-0 1017:ml-5 1200:ml-0">
-        <q className="text-[#0B4A72] text-xl leading-7 460:text-2xl 460:leading-9 tracking-[0.35px]">
+        <q className="text-dark-blue text-xl leading-7 460:text-2xl 460:leading-9 tracking-[0.35px]">
           It's been a life changer for me - how easy it is to use. I'll never go
           to a pharmacy again.
         </q>
         <div className="mt-2 460:mt-9">
-          <cite className="text-[#868AA2] text-sm leading-7 tracking-[0.44px]">
+          <cite className="text-gray-blue text-sm leading-7 tracking-[0.44px]">
             -Lisa, Alto customer
           </cite>
         </div>

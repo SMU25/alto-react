@@ -46,13 +46,13 @@ const storeLinks = [
 
 export const Footer = () => {
   return (
-    <footer className="relative bg-[#FFFAF4] px-5 360:px-10 628:px-[4.5rem]">
+    <footer className="relative bg-light-rose px-5 360:px-10 628:px-[4.5rem]">
       <Info
         title="Believe in a better pharmacy."
         link="Transfer in seconds"
         className="pb-16 628:pb-28"
         classNameTitle="mb-12 628:mb-[4.5rem]"
-        classNameLink="bg-[#EAF6B9]"
+        classNameLink="bg-light-green"
       />
       <div>
         <Link to="/">
@@ -64,7 +64,7 @@ export const Footer = () => {
               <li key={item} className="mr-12">
                 <a
                   href={item}
-                  className="text-[#0B4A72] leading-[3rem] tracking-[0.75px] transition hover:text-[#37c4c8]"
+                  className="text-dark-blue leading-[3rem] tracking-[0.75px] transition hover:text-light-blue"
                 >
                   {item}
                 </a>
@@ -81,7 +81,7 @@ export const Footer = () => {
             ))}
           </ul>
         </div>
-        <div className="flex justify-between flex-wrap-reverse my-10 628:mt-24 628:mb-20 text-[#868AA2] text-sm leading-7 tracking-[0.44px]">
+        <div className="flex justify-between flex-wrap-reverse my-10 628:mt-24 628:mb-20 text-gray-blue text-sm leading-7 tracking-[0.44px]">
           <div className="628:mx-2.5 904:mx-0">
             ©2020 Alto Pharmacy. All rights reserved.
           </div>
@@ -98,9 +98,9 @@ export const Footer = () => {
       </div>
       <div className="bg-white flex items-center 628:justify-around flex-col 628:flex-row 840:justify-start flex-wrap-reverse 840:flex-nowrap pb-9">
         <img src={urac} alt="urac" />
-        <div className="max-w-[10.375rem] text-center 628:text-start 628:ml-5 text-[#000000b3] leading-6 tracking-[0.84px]">
+        <div className="max-w-[10.375rem] text-center 628:text-start 628:ml-5 text-opacity70-black leading-6 tracking-[0.84px]">
           Specialty Pharmacy{" "}
-          <span className="text-[#868AA2] text-sm leading-5 tracking-[0.75px]">
+          <span className="text-gray-blue text-sm leading-5 tracking-[0.75px]">
             Expires 04/01/2021
           </span>
         </div>

@@ -23,7 +23,7 @@ export const Header = () => {
             key={item}
             className={
               (index !== 0 ? "ml-11" : "") +
-              " text-[#0B4A72] leading-5 hover:text-[#37c4c8]"
+              " text-dark-blue leading-5 hover:text-light-blue"
             }
             href="# "
           >
