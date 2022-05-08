@@ -12,13 +12,13 @@ export const Info = ({
 }) => {
   return (
     <div
-      className={`max-w-[774px] mx-auto text-[#0B4A72] text-center ${className}`}
+      className={`max-w-[48.375rem] mx-auto text-[#0B4A72] text-center ${className}`}
     >
       <Title className={`${classNameTitle}`}>{title}</Title>
       {children}
       <LinkItem
         href="#"
-        className={`pr-[73px] pl-[30px] leading-6 ${classNameLink}`}
+        className={`pr-[5.5rem] pl-8 leading-6 ${classNameLink}`}
       >
         {link}
       </LinkItem>
