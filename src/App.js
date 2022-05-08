@@ -5,6 +5,7 @@ import {
   GettingStarted,
   Response,
   TheExtraordinaryCare,
+  Footer,
 } from "modules";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <GettingStarted />
         <Response />
         <TheExtraordinaryCare />
+        <Footer />
       </div>
     </div>
   );
