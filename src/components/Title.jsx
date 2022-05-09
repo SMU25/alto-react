@@ -7,8 +7,8 @@ export const Title = ({ className, children }) => {
       className={classNames(
         "text-3xl leading-9 text-center tracking-[1.5px]",
         "360:tracking-[2.5px]",
-        "545:text-5xl 545:leading-[3.75rem]",
-        "840:text-7xl 840:leading-[5rem]",
+        "545:text-5xl 545:leading-15",
+        "840:text-7xl 840:leading-20",
         className
       )}
     >

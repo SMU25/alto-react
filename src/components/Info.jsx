@@ -14,7 +14,7 @@ export const Info = ({
   return (
     <div
       className={classNames(
-        "max-w-[48.375rem] mx-auto text-dark-blue text-center",
+        "max-w-193.5 mx-auto text-dark-blue text-center",
         className
       )}
     >
@@ -22,7 +22,7 @@ export const Info = ({
       {children}
       <LinkItem
         href="#"
-        className={classNames("pr-[5.5rem] pl-8 leading-6", linkClassName)}
+        className={classNames("pr-22 pl-8 leading-6", linkClassName)}
       >
         {link}
       </LinkItem>
