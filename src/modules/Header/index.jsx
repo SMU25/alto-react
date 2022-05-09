@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import { Auth } from "components/Auth";
 import { ReactComponent as MenuBtn } from "assets/menu-btn.svg";
 import { ReactComponent as Logo } from "assets/logo.svg";
-
-const links = ["For Providers", "Sign In"];
+import { links } from "./constants";
 
 export const Header = () => {
   return (
@@ -17,20 +17,7 @@ export const Header = () => {
       <Link to="/" className="md:absolute md:left-1/2 md:translate-x-[-50%] ">
         <Logo />
       </Link>
-      <div className="mx-auto px-4 545:px-0 545:mx-0 545:ml-7 text-lg  ml:mx-0">
-        {links.map((item, index) => (
-          <a
-            key={item}
-            className={
-              (index !== 0 ? "ml-11" : "") +
-              " text-dark-blue leading-5 hover:text-light-blue"
-            }
-            href="# "
-          >
-            {item}
-          </a>
-        ))}
-      </div>
+      <Auth links={links} />
     </header>
   );
 };

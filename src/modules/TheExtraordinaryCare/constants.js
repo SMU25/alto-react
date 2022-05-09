@@ -1,10 +1,8 @@
-import React from "react";
-
-import { LayoutSectionInfo } from "components";
 import theExtraordinaryCareImg_1 from "assets/theExtraordinaryCareImg_1.png";
 import theExtraordinaryCareImg_2 from "assets/theExtraordinaryCareImg_2.png";
 import theExtraordinaryCareImg_3 from "assets/theExtraordinaryCareImg_3.png";
-const items = [
+
+export const items = [
   {
     img: theExtraordinaryCareImg_1,
     title: "Low prices",
@@ -24,12 +22,3 @@ const items = [
       "Worried about side effects? Something else? Chat with a pharmacist anytime.",
   },
 ];
-
-export const TheExtraordinaryCare = () => {
-  return (
-    <LayoutSectionInfo
-      title="The extraordinary care you deserve."
-      items={items}
-    />
-  );
-};
