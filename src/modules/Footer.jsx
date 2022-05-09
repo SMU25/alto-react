@@ -51,8 +51,8 @@ export const Footer = () => {
         title="Believe in a better pharmacy."
         link="Transfer in seconds"
         className="pb-16 628:pb-28"
-        classNameTitle="mb-12 628:mb-[4.5rem]"
-        classNameLink="bg-light-green"
+        titleClassName="mb-12 628:mb-[4.5rem]"
+        linkClassName="bg-light-green"
       />
       <div>
         <Link to="/">

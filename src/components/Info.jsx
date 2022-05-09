@@ -1,24 +1,28 @@
 import React from "react";
+import classNames from "classnames";
 
 import { Title, LinkItem } from "components";
 
 export const Info = ({
   className,
-  classNameTitle,
-  classNameLink,
+  titleClassName,
+  linkClassName,
   title,
   link,
   children,
 }) => {
   return (
     <div
-      className={`max-w-[48.375rem] mx-auto text-dark-blue text-center ${className}`}
+      className={classNames(
+        "max-w-[48.375rem] mx-auto text-dark-blue text-center",
+        className
+      )}
     >
-      <Title className={`${classNameTitle}`}>{title}</Title>
+      <Title className={classNames(titleClassName)}>{title}</Title>
       {children}
       <LinkItem
         href="#"
-        className={`pr-[5.5rem] pl-8 leading-6 ${classNameLink}`}
+        className={classNames("pr-[5.5rem] pl-8 leading-6", linkClassName)}
       >
         {link}
       </LinkItem>
