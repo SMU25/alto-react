@@ -1,6 +1,10 @@
-import React from "react";
+import React, { FC } from "react";
 
-export const InfoLinks = ({ infoLinks }) => {
+interface infoLinksProps {
+  infoLinks: string[];
+}
+
+export const InfoLinks: FC<infoLinksProps> = ({ infoLinks }) => {
   return (
     <ul className="flex flex-wrap 628:flex-nowrap 628:mx-2.5 904:mx-0 904:ml-5">
       {infoLinks.map((item) => (

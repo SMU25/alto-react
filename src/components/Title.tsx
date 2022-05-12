@@ -1,7 +1,12 @@
-import React from "react";
+import React, { FC } from "react";
 import classNames from "classnames";
 
-export const Title = ({ className, children }) => {
+interface titleProps {
+  className: string;
+  children?: string | JSX.Element | JSX.Element[];
+}
+
+export const Title: FC<titleProps> = ({ className, children }) => {
   return (
     <h2
       className={classNames(

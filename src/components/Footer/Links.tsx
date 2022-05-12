@@ -1,6 +1,10 @@
-import React from "react";
+import React, { FC } from "react";
 
-export const Links = ({ links }) => {
+interface linksProps {
+  links: string[];
+}
+
+export const Links: FC<linksProps> = ({ links }) => {
   return (
     <ul className="flex flex-wrap 918:max-w-186">
       {links.map((item) => (
