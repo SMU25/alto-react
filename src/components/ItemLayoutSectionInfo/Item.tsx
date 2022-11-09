@@ -1,6 +1,12 @@
-import React from "react";
+import React, { FC } from "react";
 
-export const Item = ({ img, title, description }) => {
+interface itemProps {
+  img: string;
+  title: string;
+  description: string;
+}
+
+export const Item: FC<itemProps> = ({ img, title, description }) => {
   return (
     <li
       key={title + description}

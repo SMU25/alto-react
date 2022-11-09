@@ -1,6 +1,10 @@
-import React from "react";
+import React, { FC } from "react";
 
-export const SpriteLinks = ({ spriteLinks }) => {
+interface spriteLinksProps {
+  spriteLinks: any[];
+}
+
+export const SpriteLinks: FC<spriteLinksProps> = ({ spriteLinks }) => {
   return (
     <ul className="flex">
       {spriteLinks.map((item, index) => (

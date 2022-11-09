@@ -1,9 +1,18 @@
-import React from "react";
+import React, { FC } from "react";
 import classNames from "classnames";
 
 import { Title, LinkItem } from "components";
 
-export const Info = ({
+interface infoProps {
+  className?: string;
+  titleClassName?: string;
+  linkClassName?: string;
+  title: string;
+  link: string;
+  children?: JSX.Element | JSX.Element[];
+}
+
+export const Info: FC<infoProps> = ({
   className,
   titleClassName,
   linkClassName,
